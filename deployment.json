@@ -1,0 +1,113 @@
+{
+  "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-eee212ca-8a40",
+  "name": "Microsoft.Web-WebApp-Portal-eee212ca-8a40",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourcegroups/GameDevFinderWebSite/providers/Microsoft.Web/sites/GameDevFinderWebSite",
+    "marketplaceItemId": "Microsoft.WebSite",
+    "provisioningHash": "customize-post-provisioning-steps-webapp-deployment"
+  },
+  "properties": {
+    "templateHash": "13893305896912079124",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "615117fa-c9cb-4992-a360-bf556b51f321"
+      },
+      "name": {
+        "type": "String",
+        "value": "GameDevFinderWebSite"
+      },
+      "location": {
+        "type": "String",
+        "value": "Central US"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-GameDevFinderWebSite-8b8b"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "GameDevFinderWebSite"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": false
+      },
+      "sku": {
+        "type": "String",
+        "value": "Free"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "F1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "0"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "linuxFxVersion": {
+        "type": "String",
+        "value": "PHP|8.0"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2022-04-17T17:43:20.7361588Z",
+    "duration": "PT1M17.8359151S",
+    "correlationId": "504fd842-2ca1-4696-924f-1a1eb10a90c0",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "centralus"
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Web/serverfarms/ASP-GameDevFinderWebSite-8b8b",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-GameDevFinderWebSite-8b8b"
+          }
+        ],
+        "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Web/sites/GameDevFinderWebSite",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "GameDevFinderWebSite"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Web/serverfarms/ASP-GameDevFinderWebSite-8b8b"
+      },
+      {
+        "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Web/sites/GameDevFinderWebSite"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-eee212ca-8a40/operations/B6A9026EA97DC3AF",
+    "operationId": "B6A9026EA97DC3AF",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-17T17:43:20.6548631Z",
+      "duration": "PT1M17.0946892S",
+      "trackingId": "130b3ed7-5528-4788-aada-f310e058c365",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Web/sites/GameDevFinderWebSite",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "GameDevFinderWebSite"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-eee212ca-8a40/operations/B53546C7F8FA6B5B",
+    "operationId": "B53546C7F8FA6B5B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-17T17:43:02.0043778Z",
+      "duration": "PT58.4442039S",
+      "trackingId": "f6ba2aa4-42ee-40fc-b410-5eab9d5505d0",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Web/serverfarms/ASP-GameDevFinderWebSite-8b8b",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-GameDevFinderWebSite-8b8b"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/615117fa-c9cb-4992-a360-bf556b51f321/resourceGroups/GameDevFinderWebSite/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-eee212ca-8a40/operations/08585513895629933182",
+    "operationId": "08585513895629933182",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-04-17T17:43:20.7176937Z",
+      "duration": "PT1M17.1575198S",
+      "trackingId": "26a2782b-412f-420f-9bb5-df3d9469e33d",
+      "statusCode": "OK"
+    }
+  }
+]
